@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet");
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+    color: #222;
+}
+.navbar{
+    padding: .8rem;
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+    width: 53px;
+    height: 48px;
+    border: 2px solid #ddd;
+    padding: 0px;
+}
+.img-fluid {
+    width: 400px;
+    height: 400px;
+    padding:10px;
+    width: 100%;
+    border-radius:7px;
+}
+.carousel-caption{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+.btn-primary{
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+}
+.btn-primary:hover{
+    background-color: #563d7c;
+    border:  #563d7c;
+}
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+}
+.padding{
+    padding-bottom: 2rem;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #d4d4d4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+} 
+.fa-code{
+    color: #e54d26;
+}
+.fa-bold{
+    color: #563d7c;
+}
+.fa-css3{color: #2163af;
+}
+.fa-code,
+.fa-bold,
+.fa-css3{
+    font-size: 5em;
+    margin: 1rem;
+}
+.fun{
+    width:100%;
+    margin-bottom: 2em;
+}
+.gif{
+    max-width: 100%;
+}
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #00aced;
+}
+.fa-google-plus-g{
+    color: #dd4b39;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-whatsapp{
+    color: green;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-youtube:hover,
+.fa-whatsapp:hover{
+    color:#d5d5d5; 
+}
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a {
+    color: #d5d5d5;
+}
+hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
